@@ -1,12 +1,18 @@
+/* Universal Selector */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body Section */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* Header Section */
 
 .header {
     padding: 20px;
@@ -41,6 +47,8 @@ body {
     margin-left: 25px;
 }
 
+/* Set 'a' and 'p' tags' style */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,6 +58,8 @@ p {
     font-size: 16px;
 }
 
+/* Main background image */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -58,6 +68,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* Floats Section (left-right) */
 
 .float-left {
     float: left;
@@ -69,11 +81,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* Benfits Section */
 
 .benefits {
     margin-right: 20px;
@@ -102,6 +110,14 @@ p {
     max-width: 150px;
 }
 
+/* Content Section */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .content-item {
     margin-bottom: 20px;
     padding: 50px;
@@ -119,6 +135,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* Footer Section */
 
 .footer {
     padding: 30px;
